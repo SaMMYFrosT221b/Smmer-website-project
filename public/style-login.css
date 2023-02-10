@@ -7,6 +7,10 @@ body{
     font-family: 'Rajdhani', sans-serif;
     /* position: relative; */
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 
 @media only screen and (max-width:1100px){
@@ -123,4 +127,8 @@ footer{
 
 footer ul{
     list-style: none;
+}
+i{
+    padding: 20px;
+    cursor: pointer;
 }
