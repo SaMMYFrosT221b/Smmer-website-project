@@ -111,7 +111,7 @@ body{
 }
 footer{
     background-color: #008374;
-    height:20vh;
+    /* height:20vh; */
     width:100%;
     display: flex;
     justify-content: space-around;
