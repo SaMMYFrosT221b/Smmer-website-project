@@ -3,6 +3,10 @@ const path = require("path")
 const body_parser = require("body-parser")
 const app = express()
 app.use(express.static(path.join(__dirname,'public')))
+
+app.use('/login',(req,res)=>{
+    res.render('login.ejs',{})
+})
 app.use('/',(req,res) =>{
     res.render('index.ejs',{})
 })
