@@ -114,6 +114,7 @@ footer{
     font-size: 1.2rem;
     color:white;
     flex-wrap: wrap;
+    margin:0%;
 }
 footer a{
     text-decoration: none;
