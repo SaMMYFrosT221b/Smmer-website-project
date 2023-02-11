@@ -5,19 +5,7 @@ body{
     padding: 0;
     font-weight: lighter;
     font-family: 'Rajdhani', sans-serif;
-    height: 2000px;
-    /* position: relative; */
 }
-
-.back{
-    background-color: #008374;
-    height:80vh;
-    width:100%;
-    position: absolute;
-    top:0;
-    z-index: -1;
-}
-
 
 @media only screen and (max-width:1100px){
 
@@ -25,8 +13,10 @@ body{
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
-        position: absolute;
         width: 100%;
+        background-color: #008374;
+        height: 60vh;
+
     }
     .dropdown {
         position: absolute;
@@ -77,13 +67,13 @@ body{
 }
 @media only screen and (min-width:1100px){
     .nav-bar{
-        margin-top: 18px;
         display: flex;
         justify-content: space-between;
+        background-color:#008374;
+        height: 80vh;
     }
     
     .logo{
-        /* float: right; */
         margin-left: 50px;
         font-size: 30px;
     }
@@ -121,18 +111,28 @@ body{
 }
 footer{
     background-color: #008374;
-    height:20vh;
     width:100%;
     display: flex;
     justify-content: space-around;
     font-size: 1.2rem;
     color:white;
-    position:absolute;
-    top:1850px;
+    flex-wrap: wrap;
+    margin-top:20px;
 }
-
+footer a{
+    text-decoration: none;
+    color: white;
+}
 footer ul{
     list-style: none;
+    font-size: 1.2rem;
+}
+i{
+    padding: 10px;
+    cursor: pointer;
+}
+footer h4,h3,h2{
+    margin:0;
 }
 
 
