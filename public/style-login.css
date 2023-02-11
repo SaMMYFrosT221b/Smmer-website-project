@@ -133,7 +133,7 @@ footer h4,h3,h2{
 main{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:center;
 }
 .container{
     height:40vh;
